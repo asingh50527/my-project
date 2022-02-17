@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="styleindex.css" type="text/css" />
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" type="text/css" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Amatic+SC&family=Rozha+One&family=Are+You+Serious&family=Bonbon&family=Dancing+Script&family=Estonia&family=Frijole&family=Great+Vibes&family=Grey+Qo&family=Martel:wght@200&family=Nanum+Myeongjo:wght@800&family=Passions+Conflict&family=Puppies+Play&family=Rye&family=Special+Elite&family=Tangerine&family=Mea+Culpa&family=Cinzel+Decorative&family=Yuji+Mai&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" type="text/css" href="animate.css" />
+
+  <title>MERCHANTS</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #eb91ac !important">
+    <a class="navbar-brand" href="#"><i class="fa fa-diamond"></i>MERCHANT HOUSE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"><i class="fa fa-home"></i>Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><i class="fa fa-users"></i>About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-inr"></i> INR
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#"><i class="fa fa-gbp"></i>GBP</a>
+
+            <a class="dropdown-item" href="#"><i class="fa fa-gbp"></i>GBP</a>
+
+            <a class="dropdown-item" href="#"><i class="fa fa-krw"></i>KRW</a>
+
+            <a class="dropdown-item" href="#"><i class="fa fa-eur"></i>EUR</a>
+
+            <a class="dropdown-item" href="#"><i class="fa fa-jpy"></i>JPY</a>
+
+            <a class="dropdown-item" href="#"><i class="fa fa-usd"></i>USD</a>
+
+            <a class="dropdown-item" href="#"><i class="fa fa-rub"></i>RUB</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"><i class="fa fa-phone"></i>Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shops.html"><i class="fa fa-shopping-cart"></i>Shops</a>
+      </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+
+      </form>
+    </div>
+  </nav>
+
+
+  <!--lOGIN Modal -->
+  <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Online Order Placing</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">CustomeR NamE</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">CustomeR ADDress</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">my ORDER</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--SIGN UP Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="singupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">FEEdback</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">how did you hear about us?*</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">feedback about us:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">suggestions if any for further improvement:</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+
+              <label class="form-check-label" for="exampleCheck1">WILL you be willinG to Recommand uS?</label>
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <section>
+    <div class="container-fluid my-3">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="dimond32.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>FLAT</h2>
+              <h1><i class="fa fa-bag" aria-hidden="true"></i>20%</h1>
+              <p>Certified Diamond Selection </p>
+
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="girl.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h4><i class="fa fa-laptop" aria-hidden="true"></i> Vlog</h4>
+              <p>A thing of BEAUTY IS a Joy FOREVER</p>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Diamond5.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>What to See Your Diamond First</h3>
+              <p>Let us know what your looking for &</p>
+              <p> will arrange it for a private viewing</p>
+              <a href="contact.html">
+                <h5><i class="fa fa-mobile" aria-hidden="true"></i> caLL Us aT 1800-102-0103</h5>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container">
+      <div class="row mb-2">
+        <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.1s"
+          style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+          <div
+            class="row no-gutters border rounded overflow-hidden aditi flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+
+              <h3 class="mb-0">..BURMA RUBY..</h3>
+              <div class="mb-1 text-muted">
+                <h6><b><i class="fa fa-money" aria-hidden="true"></i> C$6.999.99</b></h6>
+              </div>
+              <p class="card-text mb-auto">Ruby is distinguished for its bright red color. Ruby from Burma is famous for its exceptional coloring <i class="fa fa-pencil-square-o" arial-hidden="ture"></i></p>
+              <a href="https://en.m.wikipedia.org/wiki/Sunrise_Ruby" class="stretched-link"><i class="fa fa-link" aria-hidden="true"></i> imported for THAILAND</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="ruby.jpg">
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 wow fadeInRight" data-wow-delay="0.2s"
+          style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+          <div
+            class="row no-gutters border rounded overflow-hidden aditi flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+
+              <h3 class="mb-0">..AMETHYST (jamunai)..</h3>
+              <div class="mb-1 text-muted">
+                <h6><b><i class="fa fa-money" aria-hidden="true"></i> C$78.555.99</b></h6>
+              </div>
+              <p class="mb-auto">Amethyst is a violet colored, semi-precious gemstone of the Quartz mineral family. <i class="fa fa-pencil-square-o" arial-hidden="ture"></i></p>
+              <a href="https://en.m.wikipedia.org/wiki/Amethyst" class="stretched-link"><i class="fa fa-link" aria-hidden="true"></i> Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="Amethys.jpeg">
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row mb-2">
+        <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.3s"
+          style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+          <div
+            class="row no-gutters border rounded overflow-hidden aditi1 flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+
+              <h3 class="mb-0">..AQUAMRINE..</h3>
+              <div class="mb-1 text-muted">
+                <h6><b><i class="fa fa-money" aria-hidden="true"></i> C$4,576.00</b></h6>
+              </div>
+              <p class="card-text mb-auto"> Aquamarine is a light blue-hued gemstone of the Beryl mineral family. <i class="fa fa-pencil-square-o" arial-hidden="ture"></i></p>
+              <a href="https://www.denverpost.com/2006/11/09/museum-celebrates-record-aquamarine/"
+                class="stretched-link"><i class="fa fa-link" aria-hidden="true"></i> Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="AQUAMRINE.jpeg">
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 wow fadeInRight" data-wow-delay="0.4s"
+          style="visibility: visible; -webkit-animation-delay: 0.4s; -moz-animation-delay: 0.4s; animation-delay: 0.4s;">
+          <div
+            class="row no-gutters border rounded overflow-hidden aditi1 flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+
+              <h3 class="mb-0">..SHAPPIRE..</h3>
+              <div class="mb-1 text-muted">
+                <h6><b><i class="fa fa-money" aria-hidden="true"></i> C$4,576.00</b></h6>
+              </div>
+              <p class="mb-auto">Sapphire is a transparent gemstone known for its deep-blue variety. Sapphire belongs to the corundum family of minerals. <i class="fa fa-pencil-square-o" arial-hidden="ture"></i></p>
+              <a href="https://www.bbc.com/news/world-aisa-57981046" class="stretched-link"><i class="fa fa-link" aria-hidden="true"></i> Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="shappire.jpg">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row mb-2">
+        <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.5s"
+          style="visibility: visible; -webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; animation-delay: 0.5s;">
+          <div
+            class="row no-gutters border rounded overflow-hidden aditi2 flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+
+              <h3 class="mb-0">..AMERALD..</h3>
+              <div class="mb-1 text-muted">
+                <h6><b><i class="fa fa-money" aria-hidden="true"></i> C$7,876.00</b></h6>
+              </div>
+              <p class="card-text mb-auto">Emerald gets its green coloring from trace amounts of chromium and/or vanadium. Emerald measures between 7.5 to 8 on the Mohs Scale of Hardness. <i class="fa fa-pencil-square-o" arial-hidden="ture"></i></p>
+              <a href="https://en.m.wikipedia.org/wiki/List_of_emeralds_by_size" class="stretched-link"><i class="fa fa-link" aria-hidden="true"></i> Continue
+                reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="emerald.jpg">
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s"
+          style="visibility: visible; -webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; animation-delay: 0.6s;">
+          <div
+            class="row no-gutters border rounded overflow-hidden aditi2 flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+
+              <h3 class="mb-0">..CITRINE..</h3>
+              <div class="mb-1 text-muted">
+                <h6><b><i class="fa fa-money" aria-hidden="true"></i> C$8,970.00</b></h6>
+              </div>
+              <p class="mb-auto">Citrine is well known for its energies in manifesting your biggest dreams and bringing in more success and prosperity. <i class="fa fa-pencil-square-o" arial-hidden="ture"></i></p>
+              <a href="https://www.gemstone.org/citrine" class="stretched-link"><i class="fa fa-link" aria-hidden="true"></i> Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="citrine.jpeg">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row mb-2">
+        <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.5s"
+          style="visibility: visible; -webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; animation-delay: 0.5s;">
+          <div
+            class="row no-gutters border rounded overflow-hidden aditi flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+
+              <h3 class="mb-0">..TANZANITE..</h3>
+              <div class="mb-1 text-muted">
+                <h6><b><i class="fa fa-tag" aria-hidden="true"></i> Flat 6%</b></h6>
+              </div>
+              <p class="card-text mb-auto">Found only in a small part of Tanzania, this gem was discovered back in 1967 and quickly became very popular thanks to a marketing effort by Tiffany & Co. <i class="fa fa-pencil-square-o" arial-hidden="ture"></i></p>
+              <a href="https://en.m.wikipedia.org/wiki/List_of_emeralds_by_size" class="stretched-link"><i class="fa fa-link" aria-hidden="true"></i> Continue
+                reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="tanzanite.jpg">
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s"
+          style="visibility: visible; -webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; animation-delay: 0.6s;">
+          <div
+            class="row no-gutters border rounded overflow-hidden aditi flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+
+              <h3 class="mb-0">..AMMOLITE..</h3>
+              <div class="mb-1 text-muted">
+                <h6><b><i class="fa fa-tag" aria-hidden="true"></i> Flat 10%</b></h6>
+              </div>
+              <p class="mb-auto">Ammolite is a very new gemstone on the scene, as it was only discovered four decades ago, back in 1981 <i class="fa fa-pencil-square-o" arial-hidden="ture"></i></p>
+              <a href="https://www.gemstone.org/citrine" class="stretched-link"><i class="fa fa-link" aria-hidden="true"></i> Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="ammolite.jpg">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container">
+      <div class="row mb-2">
+        <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.5s"
+          style="visibility: visible; -webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; animation-delay: 0.5s;">
+          <div
+            class="row no-gutters border rounded overflow-hidden aditi1 flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+
+              <h3 class="mb-0">..OPAL..</h3>
+              <div class="mb-1 text-muted">
+                <h6><b><i class="fa fa-tag" aria-hidden="true"></i> Flat 6%</b></h6>
+              </div>
+              <p class="card-text mb-auto">Next on our list of rare gemstones is Opal, a hydrated amorphous form of silica.
+
+                Opal can be categorized into two classes, namely precious and common. <i class="fa fa-pencil-square-o" arial-hidden="ture"></i></p>
+              <a href="https://en.m.wikipedia.org/wiki/List_of_emeralds_by_size" class="stretched-link"><i class="fa fa-link" aria-hidden="true"></i> Continue
+                reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="opal.jpg">
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s"
+          style="visibility: visible; -webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; animation-delay: 0.6s;">
+          <div
+            class="row no-gutters border rounded overflow-hidden aditi1 flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+
+              <h3 class="mb-0">..MUSGRAVITE..</h3>
+              <div class="mb-1 text-muted">
+                <h6><b><i class="fa fa-tag" aria-hidden="true"></i> Flat 10%</b></h6>
+              </div>
+              <p class="mb-auto">Its type locality is the Ernabella Mission, Musgrave Ranges, South Australia, for which it was named following its discovery in 1967. <i class="fa fa-pencil-square-o" arial-hidden="ture"></i></p>
+              <a href="https://www.gemstone.org/citrine" class="stretched-link"><i class="fa fa-link" aria-hidden="true"></i> Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="musgravite.jpg">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container">
+      <div class="row mb-2">
+        <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.5s"
+          style="visibility: visible; -webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; animation-delay: 0.5s;">
+          <div
+            class="row no-gutters border rounded overflow-hidden aditi2 flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+
+              <h3 class="mb-0">..RED BERYL..</h3>
+              <div class="mb-1 text-muted">
+                <h6><b><i class="fa fa-money" arial-hidden="true"></i> C$54,878.00</b></h6>
+              </div>
+              <p class="card-text mb-auto"> the Red beryl is very rare and has been found and reported in only a handful of locations. Such places include Wah Wah Mountains, Utah, Paramount Canyon. <i class="fa fa-pencil-square-o" arial-hidden="ture"></i></p>
+              <a href="https://en.m.wikipedia.org/wiki/List_of_emeralds_by_size" class="stretched-link"><i class="fa fa-link" aria-hidden="true"></i> Continue
+                reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="red-beryl.jpg">
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s"
+          style="visibility: visible; -webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; animation-delay: 0.6s;">
+          <div
+            class="row no-gutters border rounded overflow-hidden aditi2 flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+
+              <h3 class="mb-0">..ALEXANDRITE..</h3>
+              <div class="mb-1 text-muted">
+                <h6><b><i class="fa fa-money" arial-hidden="true"></i> C$3,4566.00</b></h6>
+              </div>
+              <p class="mb-auto">Popular legend has it that the Finnish mineralogist Nils Gustaf Nordenskiöld (1792-1866) discovered alexandrite <i class="fa fa-pencil-square-o" arial-hidden="ture"></i></p>
+              <a href="https://www.gemstone.org/citrine" class="stretched-link"><i class="fa fa-link" aria-hidden="true"></i> Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="ALEXANDRITE.png">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="page1">
+    <div class="container">
+      <div class="card wow fadeInRight" data-wow-delay="0.1s"
+      style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+        <div class="card-header">
+          <h3><i class="fa fa-map-signs" aria-hidden="true"></i> ** Narbheram Dayaljee Gems House **</h3>
+        </div>
+
+        <div class="card-body">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.133299762865!2d86.18221111421968!3d22.797524085067455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e318b5a121eb%3A0xc43ca8fc8bc447b2!2sCaratLane%20Jamshedpur!5e0!3m2!1sen!2sin!4v1636908268191!5m2!1sen!2sin"
+              width="1108" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>"
+          </div>
+          <h5 class="card-title"><i class="fa fa-map-marker" aria-hidden="true"></i> Shop No.4, Apna Bazar, Bistupur Market, Bistupur, Jamshedpur - 831001, Jamshedpur,
+            Jharkhand 831001
+            Hours:
+            Closed ⋅ Opens 10AM Sat
+            Phone: 0657 232 1232</h5>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="page2">
+    <div class="container">
+      <div class="card wow fadeInLeft" data-wow-delay="0.2s"
+      style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+        <div class="card-header">
+          <h3><i class="fa fa-map-signs" aria-hidden="true"></i> ** Hari Om Jewellery **</h3>
+        </div>
+
+        <div class="card-body">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7358.60561720192!2d86.20413829447175!3d22.75414105366453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5fcda09bd7621%3A0x25873bca706187cc!2sHari%20Om%20Jewellery!5e0!3m2!1sen!2sin!4v1638084806142!5m2!1sen!2sin"
+              width="1108" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <h5 class="card-title"><i class="fa fa-map-marker" aria-hidden="true"></i> No reviews · Jewelry store
+            Parsudih Main Road
+            Closes soon ⋅ 1PM · 072096 09594
+            In-store shopping</h5>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="page3">
+    <div class="container">
+      <div class="card wow fadeInRight" data-wow-delay="0.3s"
+      style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+        <div class="card-header">
+          <h3><i class="fa fa-map-signs" aria-hidden="true"></i> ** jibon Jamshedpur **</h3>
+
+        </div>
+        <div class="card-body">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.179388873651!2d86.18217791421961!3d22.795815885068293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e365e6e0f6c1%3A0x51418ec088baf981!2sP.C.Chandra%20Jewellers%2C%20Jamshedpur!5e0!3m2!1sen!2sin!4v1636909458733!5m2!1sen!2sin"
+              width="1108" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+          </div>
+          <h5 class="card-title"><i class="fa fa-map-marker" aria-hidden="true"></i> 4.8
+            (223) · Jewelry store
+            D’Costa Mansion, Bistupur Main Rd
+            Closed ⋅ Opens 10:30AM Sat · 062079 01399
+
+            "Had really good collection of diamond rings."</h5>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="page4">
+    <div class="container">
+      <div class="card wow fadeInLeft" data-wow-delay="0.4s"
+      style="visibility: visible; -webkit-animation-delay: 0.4s; -moz-animation-delay: 0.4s; animation-delay: 0.4s;">
+        <div class="card-header">
+          <h3><i class="fa fa-map-signs" aria-hidden="true"></i> ** Tanishq Jewellery - Sakchi **</h3>
+        </div>
+        <div class="card-body">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.165868984543!2d86.18223231421963!3d22.796316985068124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e365ebb1d52f%3A0xacdfb1397890e74f!2sSenco%20Gold%20%26%20Diamonds!5e0!3m2!1sen!2sin!4v1636909611789!5m2!1sen!2sin"
+              width="1108" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <h5 class="card-title"><i class="fa fa-map-marker" aria-hidden="true"></i> 4.4
+            (508) · Jewelry store
+            89 A, Ground Floor Akash Buliding, Water Works Rd, near Sitla Mata Mandir
+            Closed ⋅ Opens 10:30AM Sat · 0657 222 2350
+
+            "Brand Jewelry shop for gold and diamond"</h5>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="page5">
+    <div class="container">
+      <div class="card wow fadeInRight" data-wow-delay="0.5s"
+      style="visibility: visible; -webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; animation-delay: 0.5s;">
+        <div class="card-header">
+          <h3><i class="fa fa-map-signs" aria-hidden="true"></i> ** CaratLane Jamshedpur **</h3>
+
+        </div>
+        <div class="card-body">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.1331663269943!2d86.18221111443808!3d22.79752903042316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e318b5a121eb%3A0xc43ca8fc8bc447b2!2sCaratLane%20Jamshedpur!5e0!3m2!1sen!2sin!4v1638085146565!5m2!1sen!2sin"
+              width="1108" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <h5 class="card-title"><i class="fa fa-map-marker" aria-hidden="true"></i> Silver Cage Mall, 10, Diagonal Rd, South Park, Bistupur, Jamshedpur, Jharkhand 831001
+          </h5>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="page6">
+    <div class="container">
+      <div class="card wow fadeInLeft" data-wow-delay="0.6s"
+      style="visibility: visible; -webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; animation-delay: 0.6s;">
+        <div class="card-header">
+          <h3><i class="fa fa-map-signs" aria-hidden="true"></i> ** Krishna Diamond & Gem's Laboratory **</h3>
+
+        </div>
+        <div class="card-body">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.2877563607717!2d86.18220761421955!3d22.79179898507037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e3cc2647dd09%3A0x10716dcdf700ab5e!2sKrishna%20Diamond%20%26%20Gem&#39;s%20Laboratory!5e0!3m2!1sen!2sin!4v1638088486960!5m2!1sen!2sin"
+              width="1108" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <h5 class="card-title"><i class="fa fa-map-marker" aria-hidden="true"></i> Jewelry store
+            D’Costa Mansion, Bistupur Main Rd
+            Open ⋅ Closes 8PM · 062079 01399</h5>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <footer>
+    <div class="container-fluid">
+
+      <div class="footer-content">
+        <h3><i class="fa fa-diamond" arial-hidden="true"></i> DIAMOND BLOG </h3>
+        <P>Our site uses cookies. Learn more about our use of cookies: Cookie Policy</P>
+        <ul class="social">
+          <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="https://in.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+          <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+        <div class="footer-bottom">
+          <p>Copyright &copy;2023 MERCHANTS vlog. designed by <span>  ADITI SINGH <i class="fa fa-female" arial-hidden="true"></i></span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  <script src="wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+    <script src="snowstorm-min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,409 @@
+body{
+    background: #fbeae2;
+}
+/*nav*/
+
+.navbar{
+    height: 50px;
+    text-shadow:5px 5px 5px  #fd7faf;
+}
+
+/*slides*/
+
+.carousel-item{
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+.carousel-caption{
+    margin-bottom: 50px;
+    margin-right: 500px;
+    position: absolute;
+   
+}
+.carousel-caption h2{
+    font-family: 'Martel', serif;
+    font-size:105px;
+    text-shadow: 5px 5px 5px rgba(233, 189, 206, 0.979);
+    color:white ;
+    border-bottom: white 1.5px solid;
+   
+
+}
+.carousel-caption h1{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size:115px;
+    text-shadow: 10px 10px 6px rgba(233, 189, 206, 0.979);
+    color:white ;
+    
+
+}
+.carousel-caption p{
+    font-family: 'Passions Conflict', cursive;
+    font-weight: 400;
+    text-shadow: 5px 5px 5px rgba(233, 189, 206, 0.979);
+    color:white ;
+    font-size: 50px;
+
+}
+.carousel-caption h3{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+    font-size:40px;
+    text-shadow: 5px 5px 5px rgb(243, 243, 243,0.7);
+    color:white ;
+    border-bottom: white 1px solid;
+
+}
+.carousel-caption h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:25px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgb(243, 243, 243,0.7);
+    color:#b89e53 ;
+    border-left:#b89e53 0.5px solid ;
+
+}
+.carousel-caption h4{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 150px;
+    color: #b89e53;
+    border-bottom:#b89e53 1px solid  ;
+    margin-bottom: 70px;
+    text-shadow: 7px 7px 7px #b89f53c0 ;
+}
+.row img{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+.row h3{
+    color:#f3497c ;
+    border-bottom:white 0.5px solid ;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    text-align: center;
+    text-shadow:5px 5px 5px #EB91AC;
+    font-size: 30px;
+
+}
+.row p{
+    color: #faf8f6;
+    font-family: 'Dancing Script', cursive;
+    font-size:22px;
+}
+.row h6{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow:8px 8px 8px #6873c7;
+    color:#2a3cc5;
+    font-size: 17px;
+}
+.aditi{
+    background: linear-gradient(135deg, #fd61e6, #2c96ec);
+}
+.aditi1{
+    background: linear-gradient(135deg, #ffec61, #f321d7);
+}
+.aditi2{
+    background: linear-gradient(135deg, #6ef79e, #2196f3);
+
+}
+.map{
+    width: 1108px;
+    height: 170px;
+    background: #ffffff;
+    
+}
+.card{
+    background: linear-gradient(135deg, rgb(58, 75, 231), rgb(135, 123, 238));
+    margin: 26px 0;
+    box-shadow: 0px 2px 5px 5px rgb(7, 0, 0);
+    border-radius: 5px;
+    
+}
+.card-body{
+    padding: 0;
+}
+.card-body h5{
+    font-family: 'Special Elite', cursive;
+    text-align: justify;
+    color: rgb(243, 236, 236);
+}
+.card-header{
+    height: 46;
+    background-color: rgb(219, 73, 134);
+    padding: 0;
+}
+.card-title{
+    height: 45px;
+    margin: 0;
+}
+
+/*.card-header1:hover{
+    display: none;
+    height: 200px;
+    width: 200px;
+}*/
+.card  h3{
+    color: rgb(245, 194, 215);
+    font-family:"Comforter Brush script=latin rev=1";
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Grey Qo', cursive;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 3px;
+    /*margin-bottom:5px ;
+
+    padding-top: 1px;*/
+    
+
+}
+
+/*footer area*/
+
+.footer{
+    background: linear-gradient(135deg, #6ef79e, #2196f3);
+    height: auto;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 40px;
+    color: yellowgreen;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 35px;
+    font-family: 'Rozha One', serif;
+    line-height: 4px;
+    color: rgb(247, 206, 213);
+}
+.footer-content p{
+   /* max-width: 500px;*/
+    margin:10px auto;
+    line-height: 4px;
+    font-size: 25px;
+  color: white;
+  font-family: 'Dancing Script' , cursive;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:1px 0 3px 0;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: #41CDC2;
+
+}
+.social a i{
+    font-size: 25px;
+
+}
+.social a:hover{
+    color: rgb(218, 221, 20);
+}
+.footer-content{
+    background:linear-gradient(90deg, rgb(238, 77, 165), blue );
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+  font-size: 17px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+/*new*/
+#home_quicklinks {
+    padding: 20px 0;
+    text-align: center;
+}
+a.quicklink.link1 {
+    background: #fc6719;
+}
+a.quicklink.link1 img{
+    
+}
+a.quicklink {
+    display: inline-block;
+    width: 302px;
+    height: 173px;
+    position: relative;
+    margin: 90px 30px;
+}
+a.quicklink .ql_caption {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.outer {
+    display: table;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border-spacing: 0px;
+    padding: 0px;
+}
+.inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border-spacing: 0px;
+    padding: 0px;
+}
+a.quicklink .ql_caption h2 {
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    line-height: 1.46em;
+    color: #fff;
+}
+a.quicklink.link1 .ql_top {
+    border-bottom-color: #fc6719;
+}
+a.quicklink.link1 .ql_bottom {
+    border-top-color: #fc6719;
+}
+
+
+.ql_top {
+    bottom: 173px;
+    border-bottom: 89px solid #ccc;
+}
+.ql_bottom {
+    top: 173px;
+    border-top: 89px solid #ccc;
+}
+.ql_top, .ql_bottom {
+    position: absolute;
+    left: 0px;
+    width: 0px;
+    border-left: 151px solid transparent;
+    border-right: 151px solid transparent;
+}
+
+a.quicklink.link2 {
+    background: #fcf4e7;
+}
+a.quicklink.link2 .ql_top {
+    border-bottom-color: #fcf4e7;
+}
+a.quicklink.link2 .ql_bottom {
+    border-top-color: #fcf4e7;
+}
+
+
+a.quicklink.link3 .ql_top {
+    border-bottom-color: #bcbdc0;
+}
+a.quicklink.link3 .ql_bottom {
+    border-top-color: #bcbdc0;
+}
+a.quicklink.link3 {
+    background: #bcbdc0;
+}
+a.quicklink {
+    font-size: 36px;
+    font-weight: 500;
+    text-decoration:none;
+}
+.hexagon {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  margin: 86.60px 0;
+  background-image: url(http://csshexagon.com/img/meow.jpg);
+  background-size: auto 334.8632px;
+  background-position: center;
+  box-shadow: 0 0 20px rgba(0,128,192,0.6);
+  border-left: solid 5px #4a401c;
+  border-right: solid 5px #4a401c;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 212.13px;
+  height: 212.13px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 38.93px;
+  box-shadow: 0 0 20px rgba(0,128,192,0.6);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 290.0000px;
+  height: 167.4315780649915px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-83.7158px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-83.7158px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-83.7158px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -106.0660px;
+  border-top: solid 7.0711px #4a401c;
+  border-right: solid 7.0711px #4a401c;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -106.0660px;
+  border-bottom: solid 7.0711px #4a401c;
+  border-left: solid 7.0711px #4a401c;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 2.8868px;
+  left: 0;
+  width: 290.0000px;
+  height: 167.4316px;
+  z-index: 2;
+  background: inherit;
+}

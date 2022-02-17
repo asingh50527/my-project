@@ -1,0 +1,417 @@
+/*header*/
+body{
+  background: #fbeae2;
+}
+
+
+/*nav*/
+.navbar{
+  height: 50px;
+  font-size: 15px;
+}
+
+/*shops*/
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  button:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  
+  a,
+  a:hover {
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  
+  img {
+    display: inline-block;
+    max-width: 100%;
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1300px;
+    }
+  }
+  .box{
+      margin:5rem 0 15rem;
+  }
+  .heading{
+       text-align: center;
+      position: relative;
+      font-size: 3.3rem;
+      font-weight: bold;
+      margin: 3rem 0;
+      
+  }
+  .box figure {
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    position: relative;
+  }
+  
+  .box figure img {
+    width: 500px;  
+    height: 223px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+  }
+  
+  .box figure figcaption {
+    position: absolute;
+    bottom: -50px;
+    left: 8%;
+    right: 8%;
+    background: linear-gradient(120deg, #515bd4,#8134af,#dd2a7b,yellow);
+    color: #000;
+    padding: 20px 15px;
+    -webkit-box-shadow: 0 5px 10px #00000033;
+            box-shadow: 0 5px 10px #00000033;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+  }
+  
+  .box figure figcaption::after {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    bottom: 0;
+    height: 2px;
+    background:white ;
+    content: '';
+    width: 0;
+    position: absolute;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+  }
+  
+  .box figure figcaption h5 {
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    color: #eff2f5;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .box figure figcaption h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    font-family: 'satisfy', cursive;
+  }
+  
+  .box figure:hover {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  
+  .box figure:hover h5 {
+    color: yellow;
+    border-bottom: white 1.5px solid;
+  }
+  
+  .box figure:hover img {
+    -webkit-box-shadow: 0px 0px 6px #0000004f, -10px -10px 1px #f97955;
+            box-shadow: 0px 0px 6px #0000004f, -10px -10px 1px rgb(205, 50, 166);
+  }
+  
+  .box2 figure:hover figcaption {
+    -webkit-transform: translateY(-7px);
+            transform: translateY(-7px);
+    -webkit-box-shadow: 0 10px 10px #0000004f;
+            box-shadow: 0 10px 10px #0000004f;
+  }
+  
+  .box figure:hover figcaption::after {
+    width: 100%;
+  }
+  .box h3 {
+    font-size: 3rem;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 4rem;
+    color: white;
+  }
+  
+  .box p {
+    font-size: 2rem;
+    font-family: "helveticaregular";
+    color: white;
+  }
+
+  .box h2{
+    color: #8134af;
+    font-family: 'Festive', cursive;
+    font-size: 36px;
+
+  }
+
+
+
+/*footer*/
+
+.footer{
+  background: linear-gradient(135deg, #6ef79e, #2196f3);
+  height: auto;
+  width: 100%;
+
+  padding-top: 40px;
+  color: yellowgreen;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 35px;
+  font-family: 'Rozha One', serif;
+  line-height: 4px;
+  color: rgb(247, 206, 213);
+}
+.footer-content p{
+ /* max-width: 500px;*/
+  margin:10px auto;
+  line-height: 4px;
+  font-size: 25px;
+color: white;
+font-family: 'Dancing Script' , cursive;
+}
+.footer-content h6{
+color: aliceblue;
+font-size: 23px;
+font-family: 'Dancing Script' , cursive;
+
+}
+.social{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:1px 0 3px 0;
+}
+.social li{
+  margin: 0 10px;
+}
+.social a{
+  text-decoration: none;
+  color: #41CDC2;
+
+}
+.social a i{
+  font-size: 25px;
+
+}
+.social a:hover{
+  color: rgb(246, 250, 16);
+}
+.footer-content{
+  background:linear-gradient(90deg, rgb(238, 77, 165), blue );
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+font-size: 17px;
+word-spacing: 2px;
+text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+
+
+
+
+
+  
+ /*new 10.54*/ 
+ @font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'feathericons';
+    src: url('../fonts/feathericons/feathericons.eot?-8is7zf');
+    src: url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf') format('embedded-opentype'), url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'), url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'), url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');
+}
+
+.grid {
+    position: relative;
+    margin: 0 auto;
+    padding: 1em 0 4em;
+    max-width: 1000px;
+    list-style: none;
+    text-align: center;
+}
+/* Common style */
+
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 48%;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+
+.grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+.grid figure figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+    pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+
+.grid figure figcaption>a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+.grid figure h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+}
+
+.grid figure h2 span {
+    font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+    margin: 0;
+}
+
+.grid figure p {
+    letter-spacing: 1px;
+    font-size: 68.5%;
+}
+/* Individual effects */
+/*---------------*/
+/***** Lily *****/
+/*---------------*/
+
+figure.effect-ravi img {
+    max-width: none;
+    width: -webkit-calc(100% + 50px);
+    width: calc(100% + 50px);
+    opacity: 0.7;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-40px, 0, 0);
+    transform: translate3d(-40px, 0, 0);
+}
+
+figure.effect-ravi figcaption {
+    text-align: left;
+}
+
+figure.effect-ravi figcaption>div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2em;
+    width: 100%;
+    height: 50%;
+}
+
+figure.effect-ravi h2,
+figure.effect-ravi p {
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+}
+
+figure.effect-ravi h2 {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+
+figure.effect-ravi p {
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+    transition: opacity 0.2s, transform 0.35s;
+}
+
+figure.effect-ravi:hover img,
+figure.effect-ravi:hover p {
+    opacity: 1;
+}
+
+figure.effect-ravi:hover img,
+figure.effect-ravi:hover h2,
+figure.effect-ravi:hover p {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+figure.effect-ravi:hover p {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+    -webkit-transition-duration: 0.35s;
+    transition-duration: 0.35s;
+}
+
+@media screen and (max-width: 50em) {
+    .content {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .grid figure {
+        display: inline-block;
+        float: none;
+        margin: 10px auto;
+        width: 100%;
+    }
+}
+  /*new 10.54*/ 
